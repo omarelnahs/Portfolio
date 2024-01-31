@@ -27,7 +27,7 @@
   --font-bold:700;
 
   /* ======== box shadow ========  */
-  --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+  --shadow: 0px 10px 17px 13px rgba(0,0,0,0.1);
 
   /* ======== border raduis ========  */
   --border-raduis:20px
@@ -114,7 +114,7 @@ img{
 
 .section__title{
   font-size: var(--h1-font-size);
-  margin-left:0.8rem;
+  margin-left:0.875rem;
   font-weight: var(--font-bold);
   position: relative;
   margin-bottom: 3.75rem;
