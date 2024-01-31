@@ -1,52 +1,60 @@
-import Work1 from "../../assets/work-1.svg";
-import Work2 from "../../assets/work-2.svg";
-import Work3 from "../../assets/work-3.svg";
-import Work4 from "../../assets/work-4.svg";
-import Work5 from "../../assets/work-5.svg";
-import Work6 from "../../assets/work-6.svg";
+import Work1 from "../../assets/bondi.png";
+import Work2 from "../../assets/dashboard.png";
+import Work3 from "../../assets/filter e-commerse.png";
+import Work4 from "../../assets/leon.png";
+import Work5 from "../../assets/kasper.png";
+import Work6 from "../../assets/easy.o.png";
+import Work7 from "../../assets/weather.png";
 
 const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "Project Management Illustration",
-    category: "Landing Pages",
-    link:""
+    title: "Bondi",
+    category: "Landing",
+    link:"https://omarelnahs.github.io/Bondi/"
   },
   {
     id: 2,
     image: Work2,
-    title: "Guest App Walkthrough Screens",
-    category: "E-commerce",
-    link:""
+    title: "Dashboard",
+    category: "Dashboard",
+    link:"https://simple-dashboard-io.netlify.app/"
   },
   {
     id: 3,
     image: Work3,
-    title: "Delivery App Wireframe",
-    category: "Dashboard",
-    link:""
+    title: "Filter E-commerce",
+    category: "React",
+    link:"https://filter-e-commerse-website.netlify.app/"
   },
   {
     id: 4,
     image: Work4,
-    title: "Onboarding Motivation",
-    category: "Design",
-    link:""
+    title: "Leon",
+    category: "landing",
+    link:"https://omarelnahs.github.io/Leon/"
   },
   {
     id: 5,
     image: Work5,
-    title: "iMac Mockup Design",
-    category: "React Training",
-    link:""
+    title: "kasper",
+    category: "Landing",
+    link:"https://omarelnahs.github.io/Kasper/"
   },
   {
     id: 6,
     image: Work6,
-    title: "Game Store App Concept",
-    category: "Art",
-    link:""
+    title: "Easy.io",
+    category: "Landing",
+    link:"https://omarelnahs.github.io/Easy.O/"
+  },
+  {
+    id: 7,
+    image: Work7,
+    title: "Weather App",
+    category: "React",
+    link:"https://weather-app-o.netlify.app/"
   },
 ];
 
