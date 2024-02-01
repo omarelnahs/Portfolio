@@ -3,14 +3,14 @@ import './about.css'
 import Image from '../../assets/me.jpg'
 import Cv from '../../assets/cv.pdf'
 
-const About = () => {
+const About = (props) => {
   return (
     <section className="section about container" id='about'>
       <h2 className="section__title">About Me</h2>
       <div className="about__container grid">
           <img src={Image} alt="about" className='about__img' />
 
-          <div className="about__data grid">
+          <div className={props.darkMode ? "dark about__data grid": "about__data grid"}>
             <div className="about__info">
               <p className="about__description">
               I am Omar El-Nahas, web developer from Alexandria, Egypt. I am Computer Engineering student and have rich experience in web application like design, building and customization.

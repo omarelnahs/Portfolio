@@ -136,3 +136,23 @@
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
 }
+
+@media screen and (max-width:1024px){
+    .work__filters{
+        justify-content: center;
+    }
+    .work__container{
+        grid-template-columns: repeat(2,320px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width:767px){
+    .work__container{
+        grid-template-columns: 310px;
+    }
+    .work__filters{
+        row-gap: .25rem;
+    }
+}

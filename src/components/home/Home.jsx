@@ -12,7 +12,7 @@ const Home = () => {
         <img src={Me} alt="profile" className="home__img" />
         <h1 className="home__name">Omar El-Nahas</h1>
         <span className="jop">Front-End Developer</span>
-        <HeaderSocials/>
+        <HeaderSocials />
 
         <a href="#contact" className="btn">Hire Me</a>
 

@@ -13,7 +13,7 @@
     border-radius: 100%;
     -webkit-border-radius: 100%;
 }
-@media (max-width:767px){
+@media (max-width:1024px){
     .about__img{
         display: flex; 
         margin:0 auto
@@ -22,7 +22,6 @@
 .about__data{
     padding: 1.875rem;
     margin-top:1.875rem;
-    background-color: var(--container-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-raduis);
     -webkit-border-radius: var(--border-raduis);
@@ -90,5 +89,20 @@
 .js{color:#f0db4f}
 .react{color:#61DBFB}
 .git{color:#F1502F}
-.github{color:#171515}
+.github{color:#535353}
 .figma{color:#0acf83}
+
+@media screen and (max-width:1024px){
+    .about__container{
+        grid-template-columns: 720px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+    .about__data::before{
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #8a8585;
+        left:49%;
+        top:-20px
+    }
+}

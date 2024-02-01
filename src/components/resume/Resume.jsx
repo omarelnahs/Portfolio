@@ -3,13 +3,13 @@ import './resume.css'
 import Data from './Data'
 import Card from './Card'
 
-const Resume = () => {
+const Resume = (props) => {
   return (
     <section className="resume container section" id="resume">
       <h2 className="section__title">Experience</h2>
 
       <div className="resume__container grid">
-        <div className="timeline grid">
+        <div className={props.darkMode ? "dark timeline grid": "timeline grid"}>
           {Data.map((val, id) => {
             if(val.category === "education"){
               return(
@@ -25,7 +25,7 @@ const Resume = () => {
           })}
 
         </div>
-        <div className="timeline grid">
+        <div className={props.darkMode ? "dark timeline grid": "timeline grid"}>
           {Data.map((val, id) => {
             if(val.category === "experience"){
               return(
