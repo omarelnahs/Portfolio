@@ -36,8 +36,8 @@ const Data = [
     category: "experience",
     icon: "icon-briefcase",
     year: "2022 - 2023",
-    title: "Front-End Mintor at GDSC",
-    desc: "Front-End Mintor at GDSC Bihira ",
+    title: "Front-End Mentor at GDSC",
+    desc: "Front-End Mentor at GDSC Bihira ",
   },
 ];
 export default Data;
