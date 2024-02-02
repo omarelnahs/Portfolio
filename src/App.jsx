@@ -8,15 +8,15 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 function App() {
 
-  const [darkMode, setDarkMode] = React.useState(true)
+  const [darkMode, setDarkMode] = React.useState(false)
 
   function toggleDarkMode() {
     setDarkMode(prevMode => !prevMode)
   }
 
   return (
-    <>  
-      <div className="icon-darkmode" onClick={toggleDarkMode}>
+    <div className={darkMode ? "dark" :"light"}>  
+      <div className={darkMode ? "icon-darkmode light" :"icon-darkmode dark"} onClick={toggleDarkMode}>
         {darkMode ? <i class="fa-solid fa-moon moon"></i> : <i class="fa-solid fa-sun sun"></i>}
       </div>
       <Sidebar 
@@ -45,7 +45,7 @@ function App() {
           toggleDarkMode={toggleDarkMode}
         />
       </main>
-    </>
+    </div>
   );
 }
 

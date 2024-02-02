@@ -6,9 +6,9 @@ const Sidebar = (props) => {
 
   return (
     <div>
-        <aside className={toggle  ? "aside show-menu" : "aside"} >
+      <aside className={toggle  ? "aside show-menu" : "aside"} >
           <a href="#home" className="nav__logo">
-            <h3>O<span>.</span></h3>
+            <logo>O<span>.</span></logo>
           </a>
 
           <nav className="nav">
@@ -48,7 +48,10 @@ const Sidebar = (props) => {
           </div>
       </aside>
       <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={()=> showMenu(!toggle)}>
-        {toggle ? <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-bars"></i>}
+        {toggle ? 
+          <i className={props.darkMode ? "fa-solid fa-xmark light" :"fa-solid fa-xmark dark"}></i> :
+          <i className={props.darkMode ? "fa-solid fa-bars light" :"fa-solid fa-bars dark"}></i>
+        }
       </div>
     </div>
   )

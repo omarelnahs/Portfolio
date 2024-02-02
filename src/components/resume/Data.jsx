@@ -39,13 +39,5 @@ const Data = [
     title: "Front-End Mintor at GDSC",
     desc: "Front-End Mintor at GDSC Bihira ",
   },
-  {
-    id: 6,
-    category: "experience",
-    icon: "icon-briefcase",
-    year: "2018 - 2021",
-    title: "Supervisor",
-    desc: "Supervisor at net cafe ",
-  },
 ];
 export default Data;
