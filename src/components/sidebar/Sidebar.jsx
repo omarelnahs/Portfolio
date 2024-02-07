@@ -4,9 +4,13 @@ const Sidebar = (props) => {
 
   const [toggle, showMenu] = useState(false)
 
+  const mode = props.darkMode ? "light ": " dark"
+  const revMode = props.darkMode ? "dark": " light"
+  const show = toggle  ? "aside show-menu" : "aside"
+
   return (
     <div>
-      <aside className={toggle  ? "aside show-menu" : "aside"} >
+      <aside className={`${mode} ${show}`} >
           <a href="#home" className="nav__logo">
             <logo>O<span>.</span></logo>
           </a>
@@ -15,27 +19,27 @@ const Sidebar = (props) => {
             <div className="nav__menu">
               <ul className="nav__list">
                 <li className="nav__item">
-                  <a href="#home" className="nav__link">
+                  <a href="#home" className={`${mode} nav__link`}>
                     <i className="icon-home"></i>
                   </a>
                 </li>
                 <li className="nav__item">
-                  <a href="#about" className="nav__link">
+                  <a href="#about" className={`${mode} nav__link`}>
                     <i className="icon-user-following"></i>
                   </a>
                 </li>
                 <li className="nav__item">
-                  <a href="#resume" className="nav__link">
+                  <a href="#resume" className={`${mode} nav__link`}>
                     <i className="icon-graduation"></i>
                   </a>
                 </li>
                 <li className="nav__item">
-                  <a href="#portfolio" className="nav__link">
+                  <a href="#portfolio" className={`${mode} nav__link`}>
                     <i className="icon-layers"></i>
                   </a>
                 </li>
                 <li className="nav__item">
-                  <a href="#contact" className="nav__link">
+                  <a href="#contact" className={`${mode} nav__link`}>
                     <i className="icon-bubble"></i>
                   </a>
                 </li>

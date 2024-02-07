@@ -1,10 +1,10 @@
 logo{
     font-size: 36px;
     font-weight: bolder;
-    color:#000;
+    color:#e71d36 !important;
     font-family: "Rubik";
 }
-.nav__logo span{color: #e71d36;}
+.nav__logo span{color: #aaa4a5;}
 
 .aside{
     position: fixed;
@@ -24,7 +24,6 @@ logo{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #8a8585
 }
 
 .nav__list{
@@ -35,7 +34,6 @@ logo{
 
 .nav__link{
     font-size: 1.5rem;
-    color: var(--body-color);
     font-weight: var(--font-bold);
     transition: .3s;
     -webkit-transition: .3s;
@@ -49,8 +47,8 @@ logo{
 }
 
 .copyright{
-    color: #030303 !important;
     font-size: var(--small-font-size);
+    color: #aaa4a5 !important;
     transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
@@ -63,7 +61,7 @@ logo{
 
 .nav__toggle{
     position: fixed;
-    top:2.5rem;
+    top:5vh;
     left:1.875rem;
     font-size: 20px;
     width:40px;
