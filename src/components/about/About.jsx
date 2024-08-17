@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import Image from '../../assets/me.jpg'
-import Cv from '../../assets/cv.pdf'
+import Cv from '../../assets/resume.pdf'
 
 const About = (props) => {
   return (
@@ -21,7 +21,7 @@ const About = (props) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className='btn download'>Download CV</button>
+                <button className='btn download'>Download CV</button>     
               </a>
             </div>
 
