@@ -1,11 +1,11 @@
 import React from "react";
 import './App.css'
-import Sidebar from './components/sidebar/Sidebar'
-import Home from './components/home/Home'
-import About from './components/about/About'
-import Resume from './components/resume/Resume'
-import Portfolio from './components/portfolio/Portfolio'
-import Contact from './components/contact/Contact'
+import Sidebar from './components/Sidebar/Sidebar'
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Resume from './pages/Resume/Resume'
+import Portfolio from './pages/Portfolio/Portfolio'
+import Contact from "./pages/Contact/Contact";
 function App() {
 
   const [darkMode, setDarkMode] = React.useState(false)
