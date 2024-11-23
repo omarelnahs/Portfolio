@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css'
-import Sidebar from "./"
+import Sidebar from "./components/Sidebar/Sidebar"
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Resume from './pages/Resume/Resume'
