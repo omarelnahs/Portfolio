@@ -33,8 +33,8 @@ const Portfolio = () => {
                 <div className="work__mask"></div>
               </div>
 
-              <span className="work__category">{category}</span>
-              <h3 className="work__title">{title}</h3>
+              <span className="work__category" style={{color:"#fff"}}>{category}</span>
+              <h4 className="work__title">{title}</h4>
               <a href={link} className="work__button" target='_blanck'>
                 <i className="icon-link work__button-icon"></i>
               </a>
