@@ -26,7 +26,7 @@ const About = (props) => {
           <div className={props.darkMode ? "dark about__data grid": "about__data grid"}>
             <div className="about__info d-flex flex-column justify-content-center mt-5">
               <p className="about__description">
-              Hello! I'm Omar, a passionate Frontend Developer with over 5 years of experience in building dynamic and responsive web applications. My expertise lies in using modern frameworks like React.js and Next.js to create seamless user experiences. I thrive on solving complex problems and turning ideas into reality through code.
+              Hello! I'm Omar, a passionate Frontend Developer with +3 years of experience in building dynamic and responsive web applications. My expertise lies in using modern frameworks like React.js and Next.js to create seamless user experiences. I thrive on solving complex problems and turning ideas into reality through code.
               </p>
               <a
                 href={Cv}
